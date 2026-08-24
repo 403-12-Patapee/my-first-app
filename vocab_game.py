@@ -55,7 +55,7 @@ else:
 
 
 st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
- if score == 4:
+if score == 4:
     st.success("🎉 You win! Hooray!!")
  else:
      st.error("You lose!")
