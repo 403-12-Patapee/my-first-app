@@ -1,7 +1,7 @@
 import streamlit as st
 import time
 
-  st.title("⏱️ เกมเติมศัพท์จับเวลา")
+st.title("⏱️ เกมเติมศัพท์จับเวลา")
 
 if "ans1_val" not in st.session_state:
     st.session_state.ans1_val = ""
