@@ -89,14 +89,16 @@ st.session_state.ans3_val = ans3
 st.session_state.ans4_val = ans4
     
 if "start" in st.session_state and not st.session_state.get("is_ended", False):
+
     if st.button("📥 ส่งคำตอบ"):
         st.session_state.is_ended = True
         st.rerun()
 
- time.sleep(1)
- st.rerun()
-if st.session_state.get("is_ended", False):
-show_result_dialog(ans1, ans2, ans3, ans4)
+    time.sleep(1)
+    st.rerun()
 
+
+if st.session_state.get("is_ended", False):
+    show_result_dialog(ans1, ans2, ans3, ans4)
 st.divider()
         st.write("นายปฐพี วิละคำ เลขที่ 12 ม.4/3")
