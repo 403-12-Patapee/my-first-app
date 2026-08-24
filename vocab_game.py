@@ -57,7 +57,7 @@ else:
 st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
 if score == 4:
     st.success("🎉 You win! Hooray!!")
-   else:
+ else:
     st.error("You lose!")
 
 st.button("🎮 เริ่มเล่นเกม", on_click=reset_game)
