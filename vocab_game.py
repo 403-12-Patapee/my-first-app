@@ -32,7 +32,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4):
     u_ans4 = ans4.strip().lower()
 
 
-    @st.dialog("📊 สรุปผลการเล่นเกม")
+@st.dialog("📊 สรุปผลการเล่นเกม")
 def show_result_dialog(ans1, ans2, ans3, ans4):
     st.balloons()
     score = 0
@@ -70,7 +70,6 @@ def show_result_dialog(ans1, ans2, ans3, ans4):
     else:
         st.error(f"❌ ข้อ 4: ยังไม่ถูกต้อง (คุณตอบ '{u_ans4}')")
 
-    # แสดงคะแนน
     st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
 
     if score == 4:
