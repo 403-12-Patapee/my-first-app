@@ -113,14 +113,25 @@ st.divider()
 
 # 3. ช่องรับคำตอบ (ใช้ value ผูกกับตัวแปรตรงๆ เพื่อสั่งเคลียร์ได้)
 ans1 = st.text_input(
-    "ข้อ 1: An `a _ _ l e` a day keeps the doctor away. 🍎",
+    "ข้อ 1: When the ______ is sus",
     value=st.session_state.ans1_val,
 )
 ans2 = st.text_input(
-    "ข้อ 2: Cats love to eat `f _ s h`. 🐟",
+    "ข้อ 2: กบโดนต้ม = ???",
     value=st.session_state.ans2_val,
 )
-
+ans3 = st.text_input(
+    "ข้อ 2: ใครคือผู้สร้างโลกใบนี้ (ข่าวดังในไทย)",
+    value=st.session_state.ans2_val,
+)
+ans4 = st.text_input(
+    "ข้อ 2: Mango + Mustard = “_ _”   (HARD)",
+    value=st.session_state.ans2_val,
+)
+ans5 = st.text_input(
+    "ข้อ 2: เคยมั่นใจว่าเหนือกว่า”   ใครคือราชาของเพลงนี้",
+    value=st.session_state.ans2_val,
+)
 # อัปเดตค่าล่าสุดเข้าตัวแปร
 st.session_state.ans1_val = ans1
 st.session_state.ans2_val = ans2
