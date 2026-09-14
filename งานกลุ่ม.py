@@ -157,5 +157,8 @@ if st.session_state.get("is_ended", False):
     show_result_dialog(ans1, ans2)
 
 st.divider()
-st.write("นาย")
+st.write("นายชยางกูร แซ่เต็ง เลขที่ 3 ม.4/3
+          ธีธัช แก้วดี เลขที่ 11 ม.4/3
+          ปฐพี วิละคำ เลขที่ 12 ม.4/3
+          ธนาธิป พัชชวงค์ เลขที่ 36 ม.4/3")
 
