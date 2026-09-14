@@ -1,6 +1,6 @@
 
 import streamlit as st
-
+import time as time
 st.title("⏱️ เกมเติมศัพท์จับเวลา")
 
 # 1. กำหนดค่าเริ่มต้นใน session_state ถ้ายังไม่มี
