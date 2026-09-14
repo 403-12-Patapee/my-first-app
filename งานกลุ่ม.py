@@ -43,7 +43,7 @@ def show_result_dialog(ans1, ans2):
     u_ans5 = ans5.strip().lower()
 
     # ตรวจข้อ 1
-    if u_ans1 == "Imposter":
+    if u_ans1 == "imposter":
         st.success("✅ ข้อ 1: ถูกต้อง")
         score += 1
     else:
