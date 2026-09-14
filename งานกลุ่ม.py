@@ -2,6 +2,7 @@
 import streamlit as st
 import time as time
 st.title("⏱️ เกมเติมศัพท์จับเวลา")
+st.image("Thumbs_up_Emoji.png")
 
 # 1. กำหนดค่าเริ่มต้นใน session_state ถ้ายังไม่มี
 if "ans1_val" not in st.session_state:
@@ -157,7 +158,6 @@ if st.session_state.get("is_ended", False):
     show_result_dialog(ans1, ans2)
 
 st.divider()
-st.image("Thumbs_up_Emoji.png")
 st.write("นายชยางกูร แซ่เต็ง เลขที่ 3 ม.4/3")
 st.write("ธีธัช แก้วดี เลขที่ 11 ม.4/3")
 st.write("ปฐพี วิละคำ เลขที่ 12 ม.4/3")
