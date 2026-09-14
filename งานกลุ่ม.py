@@ -82,13 +82,13 @@ def show_result_dialog(ans1, ans2):
 
     if score == 5:
         st.success("Yes king👑")
-    if score == 4:
+    elif score == 4:
         st.success("Mango Mustard🥭")
-    if score == 3:
+    elif score == 3:
         st.success("Alpha🐺")
-    if score == 2:
+    elif score == 2:
         st.success("Beginner😬")
-    if score == 1:
+    elif score == 1:
         st.success("Newgen😒")
     else:
         st.error("💀 You lose!")
